@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Registrar Pedidos</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_planet">PlanetActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="historial">Historial</string>
+    <string name="nuevopedido">Nuevo Pedido</string>
+    <string name="catalogo">Catalogo</string>
+    <string name="agregarcliente">Nuevo Cliente</string>
+    <string name="misdatos">Mis Datos</string>
+    <string name="listacliente">Clientes</string>
+    <string name="title_activity_myprofile">MyprofileActivity</string>
+    <string name="title_activity_splash">Registrar Pedidos</string>
+    <string name="title_activity_catalog">CatalogActivity</string>
+    <string name="title_activity_history">Historial de pedidos</string>
+    <string name="title_activity_add_order">Registrar Orden</string>
+    <string name="title_activity_add_client">Agregar Cliente</string>
+    <string name="title_activity_client_list">Buscar Cliente</string>
+
+    <!-- MYPROFILE activity -->
+    <string name="in_nom">Nombre</string>
+    <string name="in_pa_ap">Apellido paterno</string>
+    <string name="in_ma_ap">Apellido materno</string>
+    <string name="in_cod">Codigo de vendedor</string>
+    <string name="in_tel">Número telefonico</string>
+    <string name="in_ema">example@empresa.com</string>
+    <string name="in_pass">Ingrese contraseña</string>
+    <string name="in_conf">confirme contraseña</string>
+    <string name="in_lastpass">Ingrese contraseña anterior</string>
+    <string name="vendor_image">Imagen del vendedor</string>
+    <string name="label_pass_admin">ADMINISTRACION DE PASSWORD</string>
+    <string name="label_datos_adicionales">DATOS ADICIONALES</string>
+    <string name="label_nombre">NOMBRES Y APELLIDOS</string>
+    <string name="label_imagen_vendedor">MI IMAGEN</string>
+    <string name="cambiarpass">Cambiar Contraseña</string>
+    <string name="guardarcambios">Guardar Cambios</string>
+    <string name="Myprofile">Mis Datos</string>
+    <string name="cont_desc_cancelar">image button cancelar</string>
+    <string name="cont_desc_guardar">image button guardar</string>
+    <string name="dialog_newpass">Nueva contraseña</string>
+    <string name="dialog_conf">Confirme contraseña</string>
+    <string name="dialog_pass">Contraseña anterior</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_ok">OK</string>
+
+    <string-array name="myprofile_layouts_array">
+        <item>Agregar Pedido</item>
+        <item>Historial</item>
+        <item>Catalogo</item>
+        <item>Agregar Cliente</item>
+        <item>Lista de Clientes</item>
+    </string-array>
+
+    <!-- AGREGAR CLIENTE activity -->
+    <!-- AGREGAR CLIENTE activity -->
+    <!-- AGREGAR CLIENTE activity -->
+    <!-- AGREGAR CLIENTE activity -->
+    <string name="store_image">Imagen de la empresa cliente</string>
+    <string name="label_imagen_empresa">EMPRESA CLIENTE</string>
+    <string name="label_nombre_empresa">DATOS DE LA EMPRESA</string>
+    <string name="in_empresa_nombre">Nombre de la empresa</string>
+    <string name="in_empresa_ruc">RUC: 00000000</string>
+    <string name="in_empresa_departamento">Departamento</string>
+    <string name="in_empresa_provincia">Provincia</string>
+    <string name="in_empresa_distrito">Distrito</string>
+    <string name="in_empresa_direccion">Dirección</string>
+    <string name="label_datos_cliente">DATOS DEL CLIENTE</string>
+    <string name="in_cliente_nombre">Nombre</string>
+    <string name="in_cliente_appaterno">Apellido paterno</string>
+    <string name="in_cliente_apmaterno">Apellido materno</string>
+    <string name="in_cliente_dni">DNI: 47143809</string>
+    <string name="in_cliente_celular">Nro celular</string>
+    <string name="in_cliente_telefono">Nro telefono</string>
+
+    <string-array name="ac_layouts_array">
+        <item>Agregar Pedido</item>
+        <item>Historial</item>
+        <item>Catalogo</item>
+        <item>Mis Datos</item>
+        <item>Lista de Clientes</item>
+    </string-array>
+
+    <!-- LIST CLIENTE activity -->
+    <!-- LIST CLIENTE activity -->
+    <!-- LIST CLIENTE activity -->
+    <!-- LIST CLIENTE activity -->
+    <!-- LIST CLIENTE activity -->
+    <string name="buscar_por">Buscar por:</string>
+    <string name="empresa_clientlist">Nombre Empresa</string>
+    <string name="ruc_clientlist">RUC: 2012151002</string>
+    <string name="departamento_clientlist">Departamento</string>
+    <string name="provincia_clientlist">Provincia</string>
+    <string name="distrito_clientlist">Distrito</string>
+    <string name="apellidos_clientlist">Apellidos</string>
+    <string name="nombre_clientlist">Nombre</string>
+    <string name="telefono_clientlist">3771589</string>
+    <string name="celular_clientlist">997982654</string>
+    <string name="direccion_clientlist">direccion</string>
+    <string name="image_contdesc">Imagen de la empresa</string>
+    <string name="selecciones">seleccione</string>
+
+    <string-array name="array_spnopciones_cl">
+        <item>Nombre Cliente</item>
+        <item>Nombre Empresa</item>
+        <item>RUC</item>
+    </string-array>
+    <string-array name="cl_layouts_array">
+        <item>Agregar Pedido</item>
+        <item>Historial</item>
+        <item>Catalogo</item>
+        <item>Mis Datos</item>
+        <item>Agregar Cliente</item>
+    </string-array>
+
+    <!-- CATALOG activity -->
+    <!-- CATALOG activity -->
+    <!-- CATALOG activity -->
+    <!-- CATALOG activity -->
+    <!-- CATALOG activity -->
+    <!-- CATALOG activity -->
+
+    <string-array name="ca_layouts_array">
+        <item>Agregar Pedido</item>
+        <item>Historial</item>
+        <item>Mis Datos</item>
+        <item>Agregar Cliente</item>
+        <item>Lista de Clientes</item>
+    </string-array>
+
+    <string name="content_desc_img_producto">imagen del producto</string>
+    <string name="content_desc_img_marca">imagen del marca</string>
+    <string name="content_desc_img_car">imagen del carrito de compras</string>
+    <string name="atv_allproducts">Todos los productos</string>
+    <string name="label_descripcion_pro">Descripción:</string>
+    <string name="ir_registrar">Registrar Pedido</string>
+    
+    
+    
+    <!-- ADD ORDER activity -->
+    <!-- ADD ORDER activity -->
+    <!-- ADD ORDER activity -->
+    <!-- ADD ORDER activity -->
+    <!-- ADD ORDER activity -->
+    
+    <string-array name="ao_layouts_array">
+        <item>Historial</item>
+        <item>Catalogo</item>
+        <item>Mis Datos</item>
+        <item>Agregar Cliente</item>
+        <item>Lista de Clientes</item>
+    </string-array>
+    
+
+</resources>

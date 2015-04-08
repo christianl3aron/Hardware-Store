@@ -1,0 +1,256 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context=".MyprofileActivity" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+					        <LinearLayout
+					            android:id="@+id/misdatos_layout_left"
+					            android:layout_width="400dp"
+					            android:layout_height="wrap_content"
+					            android:layout_gravity="center"
+					            android:layout_marginLeft="30dp"
+					            android:layout_marginTop="90dp"
+					            android:orientation="vertical" >
+					
+					            <TextView
+					                android:id="@+id/edtempresa_clientlist"
+					                android:text="@string/label_imagen_vendedor"
+					                style="@style/myprofile_Label"
+					                android:fontFamily="sans-serif-condensed"
+					                android:textStyle="bold|italic" />
+					
+					            <LinearLayout
+					                android:layout_width="match_parent"
+					                android:layout_height="3dp"
+					                android:background="#09c" >
+					            </LinearLayout>
+					
+					            <ImageView
+					                android:id="@+id/imageView1"
+					                android:layout_width="300dp"
+					                android:layout_height="200dp"
+					                android:layout_gravity="center"
+					                android:layout_marginBottom="40dp"
+					                android:layout_marginTop="20dp"
+					                android:contentDescription="@string/vendor_image"
+					                android:src="@drawable/mi_foto" />
+					
+					            <TextView
+					                android:id="@+id/edtruc_clientlist"
+					                android:text="@string/label_nombre"
+					                style="@style/myprofile_Label"
+					                android:fontFamily="sans-serif-condensed"
+					                android:textStyle="bold|italic" />
+					
+					            <LinearLayout
+					                android:layout_width="match_parent"
+					                android:layout_height="3dp"
+					                android:layout_marginBottom="20dp"
+					                android:background="#33b5e5" >
+					            </LinearLayout>
+					
+					            <EditText
+					                android:id="@+id/txtnombre"
+					                style="@style/myprofile_edittext"
+					                android:layout_marginBottom="20dp"
+					                android:gravity="center"
+					                android:hint="@string/in_nom"
+					                android:inputType="textCapSentences" />
+					
+					            <EditText
+					                android:id="@+id/txtapaterno"
+					                style="@style/myprofile_edittext"
+					                android:layout_marginBottom="20dp"
+					                android:gravity="center"
+					                android:hint="@string/in_pa_ap"
+					                android:inputType="textCapSentences" />
+					
+					            <EditText
+					                android:id="@+id/txtapmaterno"
+					                style="@style/myprofile_edittext"
+					                android:hint="@string/in_ma_ap"
+					                android:gravity="center"
+					                android:inputType="textCapSentences" />
+
+					      </LinearLayout>
+    </LinearLayout>
+    
+    
+    
+    
+    
+<LinearLayout
+        android:layout_width="3dp"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:background="#33b5e5" 
+        android:layout_gravity="center">  
+</LinearLayout>
+        
+
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+			        <LinearLayout
+			            android:id="@+id/misdatos_layout_right"
+			            android:layout_width="400dp"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center"
+			            android:layout_marginRight="30dp"
+			            android:layout_marginTop="90dp"
+			            android:orientation="vertical" >
+			
+			            <TextView
+			                android:id="@+id/btnaddclient"
+			                android:text="@string/label_datos_adicionales"
+			                style="@style/myprofile_Label"
+			                android:fontFamily="sans-serif-condensed"
+			                android:textStyle="bold|italic"/>
+			
+			            <LinearLayout
+			                android:layout_width="match_parent"
+			                android:layout_height="3dp"
+			                android:background="#33b5e5" >
+			            </LinearLayout>
+			
+			            <EditText
+			                android:id="@+id/txtcodigo"
+			                style="@style/myprofile_edittext"
+			                android:layout_marginBottom="20dp"
+			                android:layout_marginTop="20dp"
+			                android:hint="@string/in_cod"
+			                android:gravity="center"/>
+			                
+			            <EditText
+			                android:id="@+id/txttelefono"
+			                style="@style/myprofile_edittext"
+			                android:layout_marginBottom="20dp"
+			                android:hint="@string/in_tel"
+			                android:inputType="number"
+			                android:gravity="center"/>
+			
+			            <EditText
+			                android:id="@+id/txtemail"
+			                style="@style/myprofile_edittext"
+			                android:hint="@string/in_ema"
+			                android:inputType="textEmailAddress"
+			                android:gravity="center"/>
+			
+			            <TextView
+			                android:id="@+id/btnhistory" 
+			                android:layout_marginTop="30dp"
+			                android:text="@string/label_pass_admin"
+			                style="@style/myprofile_Label"
+			                android:fontFamily="sans-serif-condensed"
+			                android:textStyle="bold|italic"/>
+			
+			            <LinearLayout
+			                android:layout_width="match_parent"
+			                android:layout_height="3dp"
+			                android:layout_marginBottom="20dp"
+			                android:background="#33b5e5" >
+			            </LinearLayout>
+			
+			            <EditText
+			                android:id="@+id/txtpass"
+			                style="@style/myprofile_edittext"
+			                android:layout_marginBottom="20dp"
+			                android:hint="@string/in_pass"
+			                android:inputType="textPassword"
+			                android:gravity="center" >
+			                
+			            </EditText>
+			
+			            <EditText
+			                android:id="@+id/txtconf"
+			                style="@style/myprofile_edittext"
+			                android:layout_marginBottom="20dp"
+			                android:hint="@string/in_conf"
+			                android:inputType="textPassword"
+			                android:gravity="center">
+			
+			            </EditText>
+			
+			            <LinearLayout
+			                android:id="@+id/botonesmyprofile"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:layout_gravity="center"
+			                android:layout_marginTop="20dp" >
+					
+					                <Button
+					                    android:id="@+id/btncancelar"
+					                    android:layout_width="wrap_content"
+					                    android:layout_height="wrap_content"
+					                    android:drawableLeft="@drawable/cancel"	 />
+					
+					                <Button
+					                    android:id="@+id/btnok"
+					                    android:layout_width="wrap_content"
+					                    android:layout_height="wrap_content"
+					                    android:drawableLeft="@drawable/ok"	
+					                    />
+					                
+            			</LinearLayout>
+            			
+			            <LinearLayout			                
+			                android:id="@+id/botonessecumyprofile"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:layout_gravity="center"
+			                android:visibility="invisible"
+			                android:background="#33b5e5"
+			                android:layout_marginTop="20dp">
+					
+					    			<Button
+					                    android:id="@+id/btncambiarpass"
+					                    android:layout_weight="1"
+					                    android:layout_width="0dp"
+					                    android:layout_height="80dp"
+					                    android:textSize="25sp"
+					                    android:text="@string/cambiarpass"
+					                    android:fontFamily="sans-serif-condensed"
+					                    
+					                     />   
+					                     
+					                <LinearLayout
+								        android:layout_width="4dp"
+								        android:layout_height="60dp"
+								        android:orientation="vertical"
+								        android:background="#fff" 
+								        android:layout_gravity="center">  
+									</LinearLayout>  
+									   
+					    			<Button
+					                    android:id="@+id/btncambiardatos"
+					                    android:layout_weight="1"
+					                    android:layout_width="0dp"
+					                    android:layout_height="80dp"
+					                    android:textSize="25sp"					                    
+					                    android:text="@string/guardarcambios"
+					                    android:fontFamily="sans-serif-condensed" 
+					                     />       
+					                
+            			</LinearLayout>
+			            
+			    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

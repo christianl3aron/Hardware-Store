@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="txt">#fff</color>
+    <color name="blanco">#fff</color>
+    <color name="sky">#33b5e5</color>
+    <color name="verde">#9c0</color>
+    <color name="rojo">#c00</color>
+    
+    <color name="menu_normal">#89898a</color>
+<color name="menu_focused">#000</color>
+<color name="menu_pressed">#ff7100</color>
+<color name="menu_normal_group">#3b3b3b</color>
+</resources>

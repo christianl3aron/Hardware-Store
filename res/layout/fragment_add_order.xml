@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:paddingTop="20dp"
+    android:paddingBottom="50dp"
+    android:paddingRight="100dp"
+    android:paddingLeft="100dp"
+	>			
+			<LinearLayout 
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			    >
+
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="134dp"
+				    android:orientation="horizontal" >
+
+					<LinearLayout
+					    android:layout_width="wrap_content"
+					    android:layout_height="match_parent"	
+					    android:paddingTop="10dp"
+					    android:layout_marginLeft="50dp"
+					    android:orientation="vertical" >
+
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:layout_marginBottom="10dp"
+						    android:textSize="20sp"
+						    android:fontFamily="sans-serif-condensed"
+						    android:textColor="#99f966"
+						    android:textStyle="bold|italic"
+						    android:text="CLIENTE" />
+
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:layout_marginBottom="10dp"
+						    android:textSize="20sp"
+						    android:fontFamily="sans-serif-condensed"
+						    android:textColor="#99f966"
+						    android:textStyle="bold|italic"
+						    android:text="EMPRESA" />
+
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:textSize="20sp"
+						    android:fontFamily="sans-serif-condensed"
+						    android:textColor="#99f966"
+						    android:textStyle="bold|italic"
+						    android:text="UBICACION" />
+
+					</LinearLayout>
+
+					<LinearLayout
+					    android:layout_width="500dp"
+					    android:layout_height="match_parent"
+					    android:paddingTop="13dp"
+					    android:paddingLeft="10dp"
+					    android:orientation="vertical" >
+
+						<TextView
+						    android:id="@+id/txt_nombrescomp_ao"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:layout_marginBottom="15dp"
+						    android:paddingLeft="20dp"
+						    android:paddingRight="20dp"
+						    android:background="@drawable/rounded_edittext_dies"
+						    android:textSize="18sp"/>
+
+						<TextView
+						    android:id="@+id/txt_empresa_ao"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						     android:layout_marginBottom="12dp"
+						     android:paddingLeft="20dp"
+						    android:paddingRight="20dp"
+						     android:background="@drawable/rounded_edittext_dies"
+						     android:textSize="18sp" />
+
+						<TextView
+						    android:id="@+id/txt_depprodis_ao"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:paddingLeft="20dp"
+						    android:paddingRight="20dp"
+						    android:background="@drawable/rounded_edittext_dies"
+						     android:textSize="18sp" />
+
+					</LinearLayout>
+
+					<LinearLayout
+					    android:layout_width="wrap_content"
+					    android:layout_height="match_parent"
+					    android:paddingTop="10dp"
+					    android:orientation="vertical" >
+						
+							    <TextView
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"
+								    android:layout_marginBottom="10dp"
+								    android:textSize="20sp"
+								    android:fontFamily="sans-serif-condensed"
+								    android:textColor="#99f966"
+								    android:textStyle="bold|italic"
+								    android:text="DNI" />
+		
+								<TextView
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"
+								    android:layout_marginBottom="10dp"
+								    android:textSize="20sp"
+								    android:fontFamily="sans-serif-condensed"
+								    android:textColor="#99f966"
+								    android:textStyle="bold|italic"
+								    android:text="RUC" />
+		
+								<TextView
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"
+								    android:textSize="20sp"
+								    android:fontFamily="sans-serif-condensed"
+								    android:textColor="#99f966"
+								    android:textStyle="bold|italic"
+								    android:text="DIRECCIÓN" />
+					</LinearLayout>
+
+					<LinearLayout
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:paddingTop="13dp"
+					    android:paddingLeft="10dp"
+					    android:orientation="vertical" >
+								
+					    <TextView
+						    android:id="@+id/txt_dni_ao"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:layout_marginBottom="15dp"
+						    android:paddingLeft="20dp"
+						    android:paddingRight="20dp"
+						    android:background="@drawable/rounded_edittext_dies"
+						    android:textSize="18sp"/>
+
+						<TextView
+						    android:id="@+id/txt_ruc_ao"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						     android:layout_marginBottom="12dp"
+						     android:paddingLeft="20dp"
+						    android:paddingRight="20dp"
+						     android:background="@drawable/rounded_edittext_dies"
+						     android:textSize="18sp" />
+
+						<TextView
+						    android:id="@+id/txt_direccion_ao"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:paddingLeft="20dp"
+						    android:paddingRight="20dp"
+						    android:background="@drawable/rounded_edittext_dies"
+						     android:textSize="18sp" />
+						
+					</LinearLayout>
+
+				</LinearLayout>
+				
+				<LinearLayout 
+				    android:layout_height="3dp"
+				    android:layout_width="match_parent"
+				    android:background="#33b5e5"
+				    android:layout_marginBottom="6dp">
+				    
+				</LinearLayout>
+
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="55dp"
+				    android:layout_marginBottom="20dp"
+				    android:gravity="center" >
+
+				    					<Button
+				    					    android:id="@+id/btn_register_ao"
+				    					    android:layout_width="200dp"
+				    					    android:layout_height="wrap_content"
+				    					    android:drawableLeft="@drawable/ic_register"
+				    					    android:textStyle="bold"
+				    					    android:text="   Registrar"
+				    					    android:layout_marginRight="50dp" />
+				    					
+				    					<Button
+				    					    android:id="@+id/btn_gotocatalog_ao"
+				    					    android:layout_width="200dp"
+				    					    android:layout_height="wrap_content"
+				    					    android:drawableLeft="@drawable/car"
+				    					    android:textStyle="bold"
+				    					    android:text="   Catálogo"
+				    					    android:layout_marginRight="50dp" />
+				    					
+				    					<Button
+				    					    android:id="@+id/btn_gotoaddclient_ao"
+				    					    android:layout_width="200dp"
+				    					    android:layout_height="wrap_content"
+				    					    android:drawableLeft="@drawable/ic_add"
+				    					    android:textStyle="bold"
+				    					    android:text="  Nuevo Cliente"
+				    					    android:layout_marginRight="50dp" />
+				    					
+				    					<Button
+				    					    android:id="@+id/btn_gotoclientlist_ao"
+				    					    android:layout_width="200dp"
+				    					    android:layout_height="wrap_content"
+				    					    android:drawableLeft="@drawable/ic_client_list"
+				    					    android:textStyle="bold"
+				    					    android:text="   Clientes"/>
+					
+				    					
+				</LinearLayout>
+				
+				<LinearLayout 
+				    android:layout_width="match_parent"
+				    android:layout_height="30dp"
+				    android:background="#33b5e5"
+				    android:orientation="horizontal">
+
+					<TextView
+					    android:layout_width="0dp"
+					    android:layout_weight="0.7"
+					    android:layout_height="wrap_content"
+					    android:gravity="center"
+					    android:textSize="20sp"
+					    android:textStyle="bold"
+					    android:text="Cantidad" />
+					
+					<TextView
+					    android:layout_width="0dp"
+					    android:layout_weight="1.5"
+					    android:layout_height="wrap_content"
+					    android:textSize="20sp"
+					    android:gravity="center"
+					    android:textStyle="bold"
+					    android:text="Codigo" />
+					
+					<TextView
+					    android:layout_width="0dp"
+					    android:layout_weight="4"
+					    android:layout_height="wrap_content"
+					    android:textSize="20sp"
+					    android:gravity="center"
+					    android:textStyle="bold"
+					    android:text="Nombre del Producto" />
+					
+					<TextView
+					    android:layout_width="0dp"
+					    android:layout_weight="1"
+					    android:layout_height="wrap_content"
+					    android:textSize="20sp"
+					    android:gravity="center"
+					    android:textStyle="bold"
+					    android:text="P. Unitario" />
+					
+					<TextView
+					    android:layout_width="0dp"
+					    android:layout_weight="1"
+					    android:layout_height="wrap_content"
+					    android:gravity="center"
+					    android:textSize="20sp"
+					    android:textStyle="bold"
+					    android:text="Total" />
+				    
+				</LinearLayout>
+
+				
+			
+					
+				    <ListView
+				    android:id="@+id/lst_detallepedido_ao"
+				    android:layout_width="match_parent"
+				    android:layout_height="300dp"
+				    android:background="#fff">
+					</ListView>
+					
+				
+				
+				<LinearLayout 
+				    android:layout_height="3dp"
+				    android:layout_width="match_parent"
+				    android:background="#33b5e5"></LinearLayout>
+				
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="right"
+				    android:orientation="horizontal" >
+
+				    <LinearLayout 
+						    android:layout_height="match_parent"
+						    android:layout_width="3dp"
+						    android:background="#33b5e5">
+					</LinearLayout>
+						
+					<LinearLayout
+					    android:layout_width="100dp"
+					    android:layout_height="wrap_content"
+					    android:background="#aaa"
+					    android:gravity="center"
+					    android:orientation="vertical" >
+
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:textSize="17sp"
+						    android:textStyle="bold"
+						    android:text="SUB TOTAL" />
+						
+						<LinearLayout 
+						    android:layout_height="3dp"
+						    android:layout_width="match_parent"
+						    android:background="#33b5e5">
+						    
+						</LinearLayout>
+
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:textSize="17sp"
+						    android:textStyle="bold"
+						    android:text="I.G.V." />
+						<LinearLayout 
+						    android:layout_height="3dp"
+						    android:layout_width="match_parent"
+						    android:background="#33b5e5">
+						    
+						</LinearLayout>
+
+						<TextView
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:textSize="17sp"
+						    android:textStyle="bold"
+						    android:text="TOTAL" />
+						
+						<LinearLayout 
+						    android:layout_height="3dp"
+						    android:layout_width="match_parent"
+						    android:background="#33b5e5">
+						    
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout 
+						    android:layout_height="match_parent"
+						    android:layout_width="3dp"
+						    android:background="#33b5e5">
+					</LinearLayout>
+					
+					<LinearLayout
+					    android:layout_width="150dp"
+					    android:layout_height="wrap_content"
+					    android:background="#fff"
+					    android:gravity="right"
+					    android:orientation="vertical" >
+
+						<TextView
+						    android:id="@+id/txt_subtotal_ao"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:layout_marginRight="20dp"
+						    android:textSize="17sp" />
+						
+						<LinearLayout 
+						    android:layout_height="3dp"
+						    android:layout_width="match_parent"
+						    android:background="#33b5e5">
+						    
+						</LinearLayout>
+						<TextView
+						    android:id="@+id/txt_igv_ao"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:layout_marginRight="20dp"
+						    android:textSize="17sp" />
+						
+						<LinearLayout 
+						    android:layout_height="3dp"
+						    android:layout_width="match_parent"
+						    android:background="#33b5e5">
+						    
+						</LinearLayout>
+						<TextView
+						    android:id="@+id/txt_total_ao"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:layout_marginRight="20dp"
+						    android:textSize="17sp" />
+						
+						<LinearLayout 
+						    android:layout_height="3dp"
+						    android:layout_width="match_parent"
+						    android:background="#33b5e5">
+						    
+						</LinearLayout>
+						
+
+					</LinearLayout>
+					<LinearLayout 
+						    android:layout_height="match_parent"
+						    android:layout_width="3dp"
+						    android:background="#33b5e5">
+					</LinearLayout>
+				    
+				</LinearLayout>
+			    
+			</LinearLayout>
+    
+
+</LinearLayout>

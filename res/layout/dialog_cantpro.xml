@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+    
+			<LinearLayout
+			android:layout_width="600dp"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:paddingTop="30dp"
+			android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="15dp"
+			android:orientation="vertical"
+			android:background="#09c"
+			android:focusableInTouchMode="true"
+			>
+						
+						<LinearLayout
+						android:layout_width="520dp"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:gravity="center"
+						android:layout_marginBottom="20dp"
+						android:paddingTop="20dp"
+						android:background="@drawable/rounded_edittext"
+						android:paddingBottom="20dp">
+
+									
+									<LinearLayout 
+									    android:layout_width="100dp"
+									    android:layout_height="wrap_content"
+									    android:gravity="center">
+
+										<NumberPicker
+										    android:id="@+id/numberPicker1"
+										    android:layout_width="wrap_content"
+										    android:layout_height="wrap_content" />
+
+									</LinearLayout>
+							
+						<LinearLayout 
+						    android:layout_width="330dp"
+						    android:layout_height="wrap_content">		
+									<LinearLayout 
+									    android:layout_width="150dp"
+									    android:layout_height="match_parent"
+									    android:orientation="vertical"
+									    android:paddingLeft="20dp"
+									    >
+									    
+										    <TextView
+											    android:id="@+id/textViesdbvdc"
+											    android:layout_width="wrap_content"
+											    android:layout_height="wrap_content"
+											    android:text="PRECIO"
+											    android:textColor="#555"
+											    android:textSize="25sp"
+											    android:textStyle="bold" />
+										    <TextView
+											    android:id="@+id/textViesdfgdc"
+											    android:layout_width="wrap_content"
+											    android:layout_height="wrap_content"
+											    android:text="CANTIDAD"
+											    android:textColor="#555"
+											    android:textSize="25sp"
+											    android:textStyle="bold" />
+										    
+										    <LinearLayout 
+										    android:layout_height="3dp"
+										    android:layout_width="match_parent"
+										    android:background="#111">
+										    
+											</LinearLayout>
+										
+										    <TextView
+											    android:id="@+id/textViesdc"
+											    android:layout_width="wrap_content"
+											    android:layout_height="wrap_content"
+											    android:layout_marginTop="3dp"
+											    android:text="TOTAL"
+											    android:textColor="#111"
+											    android:textSize="25sp"
+											    android:textStyle="bold" />
+									    
+									</LinearLayout>
+		
+									<LinearLayout
+									    android:layout_width="180dp"
+									    android:layout_height="match_parent"
+									    android:gravity="right"
+									    android:orientation="vertical" >
+		
+										<TextView
+										    android:id="@+id/txt_preciopro_cdialog"
+										    android:layout_width="wrap_content"
+										    android:layout_height="wrap_content"
+										    android:text="200.90"
+										    android:textColor="#555"
+										    android:textSize="25sp"
+										    android:textStyle="bold" />
+										<TextView
+										    android:id="@+id/txt_cantpro_cdialog"
+										    android:layout_width="wrap_content"
+										    android:layout_height="wrap_content"
+										    android:text="0"
+										    android:textColor="#555"
+										    android:textSize="25sp"
+										    android:textStyle="bold" />
+										
+										<LinearLayout 
+										    android:layout_height="3dp"
+										    android:layout_width="match_parent"
+										    android:background="#111">
+										    
+										</LinearLayout>
+										<TextView
+										    android:id="@+id/txt_total_cdialog"
+										    android:layout_width="wrap_content"
+										    android:layout_height="wrap_content"
+										    android:text="S/ 0.00"
+										    android:textColor="@color/rojo"
+										    android:textSize="30sp"
+										    android:textStyle="bold" />
+
+							</LinearLayout>
+						    </LinearLayout>
+						</LinearLayout>
+						
+						
+						<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:layout_marginBottom="20dp">
+						
+									<Button
+									android:id="@+id/btn_cancel_cantdialog"
+									android:layout_weight="1"
+									android:layout_width="0dp"
+									android:layout_height="wrap_content"
+									android:text="@string/dialog_cancel"
+									android:background="@color/rojo"
+									android:fontFamily="sans-serif-condensed"
+					                android:textStyle="bold"
+					                android:textSize="25sp"/>   
+									
+									<Button
+									android:id="@+id/btn_ok_cantdialog"
+									android:layout_weight="1"
+									android:layout_width="0dp"
+									android:layout_height="wrap_content"
+									android:text="@string/dialog_ok"
+									android:background="@color/verde"
+									android:fontFamily="sans-serif-condensed"
+					                android:textStyle="bold"
+					                android:textSize="25sp" />  
+						    
+						</LinearLayout>
+						
+			</LinearLayout>
+    
+
+</RelativeLayout>
